@@ -1,6 +1,6 @@
 import express from "express";
-import connect from "./src/schemas/index.js";
-import productsRouter from "./src/routes/products.router.js";
+import connect from "./schemas/index.js";
+import productsRouter from "./routes/products.router.js";
 
 const app = express();
 const PORT = 3001;
